@@ -38,7 +38,8 @@
     background-color: #F6E3DF;
     color: #D4908E;
     font-family: 'Arvo', serif;
-    
+    animation:color-change-2x 10s linear infinite alternate both
+   
 }
 
 .hero{
@@ -70,6 +71,7 @@ h5{
 #body-index{
     background-image: radial-gradient(circle,#F6E3DF , #ebb2af,#8f6968);;
 }
+
 
 /* ---------------------------------------------------- MAIN---------------------------------------------------- */
 
@@ -272,12 +274,29 @@ color:#166FE5 ;
 /* ---------------------------------------------------- FOOTER---------------------------------------------------- */
 
 
-
+/* ----------------------------------------------------ANIMACION HEADER Y FOOTER---------------------------------------------------- */
 
 @keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
 
 @keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
 
 @keyframes slide-in-top{0%{transform:translateY(-1000px);opacity:0}100%{transform:translateY(0);opacity:1}}
+/* ---------------------------------------------------- ANIMACION HEADER Y FOOTER---------------------------------------------------- */
 
 
+
+
+
+/* ---------------------------------------------------- ANIMACION MAIN INDEX---------------------------------------------------- */
+
+@keyframes color-change-2x{0%{background:#19dcea}100%{background:#b22cff}}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------- ANIMACION MAIN INDEX---------------------------------------------------- */
