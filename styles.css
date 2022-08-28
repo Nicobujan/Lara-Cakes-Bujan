@@ -5,11 +5,6 @@
 
 
 /* ---------------------------------------------------- HEADER---------------------------------------------------- */
-header{
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
 
 
 #header{
@@ -19,12 +14,20 @@ header{
 #logo{
     font-family: 'Shrikhand', cursive;
     color: #D4908E;
+    animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) .3s both
 }
 
 
-#pestañas a{
+.pestañas a{
     color: #D4908E;
+    animation:slide-in-left .7s cubic-bezier(.25,.46,.45,.94) both
 }
+
+.dropdown-menu{
+    animation:slide-in-top .6s cubic-bezier(.25,.46,.45,.94) both
+}
+
+
 /* ---------------------------------------------------- HEADER---------------------------------------------------- */
 
 
@@ -35,6 +38,7 @@ header{
     background-color: #F6E3DF;
     color: #D4908E;
     font-family: 'Arvo', serif;
+    
 }
 
 .hero{
@@ -166,12 +170,12 @@ legend{
     background-image: radial-gradient(circle,#F6E3DF , #ebb2af, #eb7c76 );
 }
 
-#main-prod h2{
+
+h3{
     color:#D4908E ;
     font-family: 'Shrikhand', cursive;
+    background-color: #F6E3DF;
 }
-
-
 
 
 
@@ -268,5 +272,12 @@ color:#166FE5 ;
 /* ---------------------------------------------------- FOOTER---------------------------------------------------- */
 
 
+
+
+@keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+
+@keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+
+@keyframes slide-in-top{0%{transform:translateY(-1000px);opacity:0}100%{transform:translateY(0);opacity:1}}
 
 
