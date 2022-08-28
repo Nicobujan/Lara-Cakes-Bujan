@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Arvo:ital@1&family=Mouse+Memoirs&family=Pacifico&family=Shrikhand&family=Silkscreen&display=swap');
+
+
+
+
+
+/* ---------------------------------------------------- HEADER---------------------------------------------------- */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+#header{
+    background-color:#F6E3DF;
+}
+
+#logo{
+    font-family: 'Shrikhand', cursive;
+    color: #D4908E;
+}
+
+
+#pestañas a{
+    color: #D4908E;
+}
+/* ---------------------------------------------------- HEADER---------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------- MAIN---------------------------------------------------- */
+
+#bienvenidos{
+    background-color: #F6E3DF;
+    color: #D4908E;
+    font-family: 'Arvo', serif;
+}
+
+.hero{
+    background-image:url(./fotos/fondobody.jpg);
+    height: 90vh;
+}
+
+.miranos{
+    background-color: #F6E3DF;
+}
+
+#miralo{
+    color: #D4908E;
+    font-family: 'Arvo', serif;
+     
+}
+
+#muestra1{
+    height: 250px;
+}
+
+h5{
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+.card-text{
+    font-family: 'Arvo', serif;
+}
+
+#body-index{
+    background-image: radial-gradient(circle,#F6E3DF , #ebb2af,#8f6968);;
+}
+
+/* ---------------------------------------------------- MAIN---------------------------------------------------- */
+
+
+/* ---------------------------------------------------- MAIN QUIENES SOMOS---------------------------------------------------- */
+
+.footer{
+    height: 10vh;
+}
+
+#body-quienes{
+    background-image:radial-gradient(circle,#F6E3DF , #ebb2af, #eb7c76 );
+}
+.titulos{
+    font-family: 'Arvo', serif;
+    
+}
+.parrafo-texto{
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+#parrafo-quienes{
+    background-color: #f8c1bf;
+    border: 4px solid black;
+    border-radius: 25px;
+    padding: 10px;
+}
+#parrafo-zona{
+    background-color: #f8c1bf;
+    border: 4px solid black;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+
+
+
+
+
+/* ---------------------------------------------------- MAIN QUIENES SOMOS---------------------------------------------------- */
+
+/* ---------------------------------------------------- MAIN CONTACTO---------------------------------------------------- */
+
+
+#body-contacto{
+    background-image: radial-gradient(circle,#F6E3DF , #ebb2af, #eb7c76 );
+}
+
+.contactanos{
+    font-family: 'Arvo', serif;
+    color:black;
+}
+
+.parrafo-contacto{
+    background-color: #F6E3DF;
+}
+
+div label{
+    font-family: 'Arvo', serif;
+}
+
+legend{
+    font-family: 'Arvo', serif;
+}
+
+#nombre{
+    background-color: #F6E3DF;
+}
+
+#mail{
+    background-color: #F6E3DF;
+}
+
+#comentario{
+    background-color: #F6E3DF;
+}
+
+/* ---------------------------------------------------- MAIN CONTACTO---------------------------------------------------- */
+
+/* ---------------------------------------------------- MAIN COMO COMPRAR---------------------------------------------------- */
+#body-como-comprar{
+    background-color: #D4908E;
+    
+}
+
+#titulo-como-comprar{
+    font-family: 'Arvo', serif;
+}
+
+
+
+/* ---------------------------------------------------- MAIN COMO COMPRAR---------------------------------------------------- */
+
+
+/* ---------------------------------------------------- MAIN PRODUCTOS---------------------------------------------------- */
+
+#body-productos{
+    background-image: radial-gradient(circle,#F6E3DF , #ebb2af, #eb7c76 );
+}
+
+#main-prod h2{
+    color:#D4908E ;
+    font-family: 'Shrikhand', cursive;
+}
+
+
+
+
+
+/* ---------------------------------------------------- MAIN PRODUCTOS---------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------- FOOTER---------------------------------------------------- */
+
+
+#footer{
+    background-color:#F6E3DF ;
+}
+#seguinos{
+    font-family: 'Shrikhand', cursive;
+    color: #D4908E;
+}
+
+
+
+.fa-twitter{
+    color: #D4908E;
+}
+.fa-twitter:hover{
+    color: #1D9BF0;
+}
+
+
+
+.fa-facebook{
+    color: #D4908E;
+}
+.fa-facebook:hover{
+color:#166FE5 ;
+}
+
+
+.fa-instagram{
+    color: #D4908E;
+}
+.fa-instagram:hover{
+    color: #E980E2;
+}
+
+
+
+.fa-whatsapp{
+    color: #D4908E;
+}
+.fa-whatsapp:hover{
+    color: #00A884;
+}
+
+/* ------------FOOTER QUIENES------------ */
+#footer-quienes{
+    background-color: #F6E3DF;
+    padding: 20px;
+    margin-top: 113px;
+}
+/* ------------FOOTER QUIENES------------ */
+
+/* ------------FOOTER COMO COMPRAR------------ */
+#footer-como-comprar{
+    background-color: #F6E3DF;
+    padding: 20px;
+    margin-top: 131px;
+}
+
+/* ------------FOOTER COMO COMPRAR------------ */
+#footer-prod{
+    background-color: #F6E3DF;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+
+/* ---------------------------------------------------- FOOTER---------------------------------------------------- */
+
+
+
+
