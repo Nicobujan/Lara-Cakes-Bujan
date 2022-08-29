@@ -7,26 +7,31 @@
 /* ---------------------------------------------------- HEADER---------------------------------------------------- */
 
 
-#header{
-    background-color:#F6E3DF;
+#header {
+    background-color: #F6E3DF;
 }
 
-#logo{
+#logo {
     font-family: 'Shrikhand', cursive;
     color: #D4908E;
-    animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) .3s both
+    animation: slide-in-left .2s cubic-bezier(.25, .46, .45, .94) .3s both
 }
 
 
-.pestañas a{
+.pestañas a {
     color: #D4908E;
-    animation:slide-in-left .7s cubic-bezier(.25,.46,.45,.94) both
+    animation: slide-in-left .3s cubic-bezier(.25, .46, .45, .94) both
 }
 
-.dropdown-menu{
-    animation:slide-in-top .6s cubic-bezier(.25,.46,.45,.94) both
+.dropdown-menu {
+    animation: slide-in-top .3s cubic-bezier(.25, .46, .45, .94) both
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
 
 /* ---------------------------------------------------- HEADER---------------------------------------------------- */
 
@@ -34,42 +39,43 @@
 
 /* ---------------------------------------------------- MAIN---------------------------------------------------- */
 
-#bienvenidos{
+#bienvenidos {
     background-color: #F6E3DF;
     color: #D4908E;
     font-family: 'Arvo', serif;
-    animation:color-change-2x 10s linear infinite alternate both
-   
+    animation: color-change-2x 10s linear infinite alternate both
 }
 
-.hero{
-    background-image:url(./fotos/fondobody.jpg);
+.hero {
+    background-image: url(./fotos/fondobody.jpg);
     height: 90vh;
 }
 
-.miranos{
+.miranos {
     background-color: #F6E3DF;
 }
 
-#miralo{
+#miralo {
     color: #D4908E;
     font-family: 'Arvo', serif;
-     
+
 }
 
-#muestra1{
+#muestra1 {
     height: 250px;
 }
 
-h5{
+h5 {
     font-family: 'Mouse Memoirs', sans-serif;
 }
-.card-text{
+
+.card-text {
     font-family: 'Arvo', serif;
 }
 
-#body-index{
-    background-image: radial-gradient(circle,#F6E3DF , #ebb2af,#8f6968);;
+#body-index {
+    background-image: radial-gradient(circle, #F6E3DF, #ebb2af, #8f6968);
+    ;
 }
 
 
@@ -78,36 +84,46 @@ h5{
 
 /* ---------------------------------------------------- MAIN QUIENES SOMOS---------------------------------------------------- */
 
-.footer{
+.footer {
     height: 10vh;
 }
 
-#body-quienes{
-    background-image:radial-gradient(circle,#F6E3DF , #ebb2af, #eb7c76 );
+#body-quienes {
+    background-image: radial-gradient(circle, #F6E3DF, #ebb2af, #eb7c76);
 }
-.titulos{
+
+.titulos {
     font-family: 'Arvo', serif;
-    
+    animation: bounce-in-left 1.1s both
 }
-.parrafo-texto{
+
+.parrafo-texto {
     font-family: 'Mouse Memoirs', sans-serif;
 }
 
-#parrafo-quienes{
+#parrafo-quienes {
     background-color: #f8c1bf;
     border: 4px solid black;
     border-radius: 25px;
     padding: 10px;
+    animation: bounce-in-left 1.1s both
 }
-#parrafo-zona{
+
+#parrafo-zona {
     background-color: #f8c1bf;
     border: 4px solid black;
     border-radius: 25px;
     padding: 10px;
+    animation: bounce-in-left 1.1s both
 }
 
+#pasteleria {
+    animation: bounce-in-right 1.1s both
+}
 
-
+#zona {
+    animation: bounce-in-right 1.1s both
+}
 
 
 
@@ -116,49 +132,54 @@ h5{
 /* ---------------------------------------------------- MAIN CONTACTO---------------------------------------------------- */
 
 
-#body-contacto{
-    background-image: radial-gradient(circle,#F6E3DF , #ebb2af, #eb7c76 );
+#body-contacto {
+    background-image: radial-gradient(circle, #F6E3DF, #ebb2af, #eb7c76);
 }
 
-.contactanos{
+.contactanos {
     font-family: 'Arvo', serif;
-    color:black;
+    color: black;
 }
 
-.parrafo-contacto{
+.parrafo-contacto {
     background-color: #F6E3DF;
 }
 
-div label{
-    font-family: 'Arvo', serif;
-}
-
-legend{
+div label {
     font-family: 'Arvo', serif;
 }
 
-#nombre{
+legend {
+    font-family: 'Arvo', serif;
+}
+
+#nombre {
     background-color: #F6E3DF;
 }
 
-#mail{
+#mail {
     background-color: #F6E3DF;
 }
 
-#comentario{
+#comentario {
     background-color: #F6E3DF;
+}
+
+#texto-contacto {
+    animation: bounce-in-top 1s both
 }
 
 /* ---------------------------------------------------- MAIN CONTACTO---------------------------------------------------- */
 
 /* ---------------------------------------------------- MAIN COMO COMPRAR---------------------------------------------------- */
-#body-como-comprar{
+#body-como-comprar {
     background-color: #D4908E;
-    
+
 }
 
-#titulo-como-comprar{
+#titulo-como-comprar {
     font-family: 'Arvo', serif;
+    animation:puff-in-center .7s cubic-bezier(.47,0.000,.745,.715) both
 }
 
 
@@ -168,13 +189,13 @@ legend{
 
 /* ---------------------------------------------------- MAIN PRODUCTOS---------------------------------------------------- */
 
-#body-productos{
-    background-image: radial-gradient(circle,#F6E3DF , #ebb2af, #eb7c76 );
+#body-productos {
+    background-image: radial-gradient(circle, #F6E3DF, #ebb2af, #eb7c76);
 }
 
 
-h3{
-    color:#D4908E ;
+h3 {
+    color: #D4908E;
     font-family: 'Shrikhand', cursive;
     background-color: #F6E3DF;
 }
@@ -205,66 +226,72 @@ h3{
 /* ---------------------------------------------------- FOOTER---------------------------------------------------- */
 
 
-#footer{
-    background-color:#F6E3DF ;
+#footer {
+    background-color: #F6E3DF;
 }
-#seguinos{
+
+#seguinos {
     font-family: 'Shrikhand', cursive;
     color: #D4908E;
 }
 
 
 
-.fa-twitter{
+.fa-twitter {
     color: #D4908E;
 }
-.fa-twitter:hover{
+
+.fa-twitter:hover {
     color: #1D9BF0;
 }
 
 
 
-.fa-facebook{
+.fa-facebook {
     color: #D4908E;
 }
-.fa-facebook:hover{
-color:#166FE5 ;
+
+.fa-facebook:hover {
+    color: #166FE5;
 }
 
 
-.fa-instagram{
+.fa-instagram {
     color: #D4908E;
 }
-.fa-instagram:hover{
+
+.fa-instagram:hover {
     color: #E980E2;
 }
 
 
 
-.fa-whatsapp{
+.fa-whatsapp {
     color: #D4908E;
 }
-.fa-whatsapp:hover{
+
+.fa-whatsapp:hover {
     color: #00A884;
 }
 
 /* ------------FOOTER QUIENES------------ */
-#footer-quienes{
+#footer-quienes {
     background-color: #F6E3DF;
     padding: 20px;
     margin-top: 113px;
 }
+
 /* ------------FOOTER QUIENES------------ */
 
 /* ------------FOOTER COMO COMPRAR------------ */
-#footer-como-comprar{
+#footer-como-comprar {
     background-color: #F6E3DF;
     padding: 20px;
     margin-top: 131px;
 }
 
 /* ------------FOOTER COMO COMPRAR------------ */
-#footer-prod{
+#footer-prod {
     background-color: #F6E3DF;
     padding-top: 10px;
     margin-top: 30px;
@@ -276,27 +303,222 @@ color:#166FE5 ;
 
 /* ----------------------------------------------------ANIMACION HEADER Y FOOTER---------------------------------------------------- */
 
-@keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+@keyframes slide-in-left {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0
+    }
 
-@keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+    100% {
+        transform: translateX(0);
+        opacity: 1
+    }
+}
 
-@keyframes slide-in-top{0%{transform:translateY(-1000px);opacity:0}100%{transform:translateY(0);opacity:1}}
+@keyframes slide-in-left {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
+@keyframes slide-in-top {
+    0% {
+        transform: translateY(-1000px);
+        opacity: 0
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
 /* ---------------------------------------------------- ANIMACION HEADER Y FOOTER---------------------------------------------------- */
 
 
 
 
 
-/* ---------------------------------------------------- ANIMACION MAIN INDEX---------------------------------------------------- */
+/* ---------------------------------------------------- ANIMACION INDEX---------------------------------------------------- */
 
-@keyframes color-change-2x{0%{background:#19dcea}100%{background:#b22cff}}
+@keyframes color-change-2x {
+    0% {
+        background: #19dcea
+    }
+
+    100% {
+        background: #b22cff
+    }
+}
+
+/* ---------------------------------------------------- ANIMACION INDEX---------------------------------------------------- */
+
+
+/* ---------------------------------------------------- ANIMACION CONTACTO---------------------------------------------------- */
+
+@keyframes bounce-in-top {
+    0% {
+        transform: translateY(-500px);
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    38% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+        opacity: 1
+    }
+
+    55% {
+        transform: translateY(-65px);
+        animation-timing-function: ease-in
+    }
+
+    72% {
+        transform: translateY(0);
+        animation-timing-function: ease-out
+    }
+
+    81% {
+        transform: translateY(-28px);
+        animation-timing-function: ease-in
+    }
+
+    90% {
+        transform: translateY(0);
+        animation-timing-function: ease-out
+    }
+
+    95% {
+        transform: translateY(-8px);
+        animation-timing-function: ease-in
+    }
+
+    100% {
+        transform: translateY(0);
+        animation-timing-function: ease-out
+    }
+}
+
+
+/* ---------------------------------------------------- ANIMACION CONTACTO---------------------------------------------------- */
+
+
+/* ---------------------------------------------------- ANIMACION QUIENES SOMOS---------------------------------------------------- */
+
+@keyframes bounce-in-left {
+    0% {
+        transform: translateX(-600px);
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    38% {
+        transform: translateX(0);
+        animation-timing-function: ease-out;
+        opacity: 1
+    }
+
+    55% {
+        transform: translateX(-68px);
+        animation-timing-function: ease-in
+    }
+
+    72% {
+        transform: translateX(0);
+        animation-timing-function: ease-out
+    }
+
+    81% {
+        transform: translateX(-28px);
+        animation-timing-function: ease-in
+    }
+
+    90% {
+        transform: translateX(0);
+        animation-timing-function: ease-out
+    }
+
+    95% {
+        transform: translateX(-8px);
+        animation-timing-function: ease-in
+    }
+
+    100% {
+        transform: translateX(0);
+        animation-timing-function: ease-out
+    }
+}
+
+
+
+@keyframes bounce-in-right {
+    0% {
+        transform: translateX(600px);
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    38% {
+        transform: translateX(0);
+        animation-timing-function: ease-out;
+        opacity: 1
+    }
+
+    55% {
+        transform: translateX(68px);
+        animation-timing-function: ease-in
+    }
+
+    72% {
+        transform: translateX(0);
+        animation-timing-function: ease-out
+    }
+
+    81% {
+        transform: translateX(32px);
+        animation-timing-function: ease-in
+    }
+
+    90% {
+        transform: translateX(0);
+        animation-timing-function: ease-out
+    }
+
+    95% {
+        transform: translateX(8px);
+        animation-timing-function: ease-in
+    }
+
+    100% {
+        transform: translateX(0);
+        animation-timing-function: ease-out
+    }
+}
+
+/* ---------------------------------------------------- ANIMACION QUIENES SOMOS---------------------------------------------------- */
+
+
+/* ---------------------------------------------------- ANIMACION COMO COMPRAR---------------------------------------------------- */
+
+@keyframes puff-in-center{0%{transform:scale(2);filter:blur(4px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
+
+
+/* ---------------------------------------------------- ANIMACION COMO COMPRAR---------------------------------------------------- */
 
 
 
 
 
+@media screen and (max-width : 770px) {
+    .carta {
+        padding-bottom: 20px;
+    }
 
-
-
-
-/* ---------------------------------------------------- ANIMACION MAIN INDEX---------------------------------------------------- */
+}
